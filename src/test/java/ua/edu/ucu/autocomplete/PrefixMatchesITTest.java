@@ -36,7 +36,6 @@ public class PrefixMatchesITTest {
     public void testWordsWithPrefix_String_and_K() {
         String pref = "abc";
         int k = 3;
-
         Iterable<String> result = pm.wordsWithPrefix(pref, k);
 
         String[] expResult = {"abc", "abce", "abcd", "abcde"};
